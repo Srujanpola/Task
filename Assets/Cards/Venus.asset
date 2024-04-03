@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Venus
   m_EditorClassIdentifier: 
+  cardAssetName: Venus
   cardType: Roman Cards
   cardName: Venus
   quantity: 1
   hp: 150
   dmg: 40
   powerName: Blades of Olympus
-  powerDescription: +10 [ ] to One Benched Card.
+  powerDescription: ' +10 [ ] to One Benched Card. '
+  cardSprite: {fileID: 21300000, guid: d7efada7e6de07543b17cb466dfa53b9, type: 3}

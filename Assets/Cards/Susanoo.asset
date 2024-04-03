@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Susanoo
   m_EditorClassIdentifier: 
+  cardAssetName: Susanoo
   cardType: Japanese Cards
   cardName: Susanoo
   quantity: 1
   hp: 130
   dmg: 50
   powerName: 'Soul Reaper''s Embrace '
-  powerDescription: 'Roll a Die. If Odd: Search your Discard Pile for a Spell Card.'
+  powerDescription: ' Roll a Die. If Odd: Search your Discard Pile for a Spell Card. '
+  cardSprite: {fileID: 21300000, guid: f7fb16752b985a045ab9b87511c5330d, type: 3}

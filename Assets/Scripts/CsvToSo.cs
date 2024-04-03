@@ -6,30 +6,40 @@ using System.IO;
 
 public class CsvToSo 
 {
+    const int cardTypeIndex = 0;
+    const int cardAssetNameIndex = 1;
+    const int cardNameIndex = 2;
+    const int cardQuantityIndex = 3;
+    const int cardHPIndex = 4;
+    const int cardDMGIndex = 5;
+    const int powerNameIndex = 6;
+    const int powerDescriptionIndex = 7;
+    const int cardSpriteIndex = 8;
 
     //static string cardCsvPath = "/Assets/CsvFile/DF-Gods";
     [MenuItem("Create Card/Generate All Cards")]
     public static void GenerateCards() 
     {
-        string[] allPaths=File.ReadAllLines("P:\\Documents\\unity3D\\Task\\Assets\\CsvFile\\DF-Gods.csv");
+        string[] allPaths=File.ReadAllLines("C:\\Users\\shhiv\\Documents\\Task\\Assets\\Editor\\CsvFile\\DF-Gods.csv");
 
         foreach (string line in allPaths)
         {
             string[] splitData = line.Split(',');
 
             Card newCard = ScriptableObject.CreateInstance<Card>();
-            newCard.cardType = splitData[0];
-            newCard.cardName = splitData[1];
-            newCard.quantity = int.Parse(splitData[2]);
+            newCard.cardType = splitData[cardTypeIndex];
+            newCard.cardAssetName = splitData[cardAssetNameIndex];
+            newCard.cardName = splitData[cardNameIndex];
+            newCard.quantity = int.Parse(splitData[cardQuantityIndex]);
          
-            newCard.hp = int.Parse(splitData[3]);
-            newCard.dmg = int.Parse(splitData[4]);
-            newCard.powerName = splitData[5];
-            Debug.Log(int.Parse(splitData[2]) + " " + newCard.powerName);
-            newCard.powerDescription = splitData[6];
+            newCard.hp = int.Parse(splitData[cardHPIndex]);
+            newCard.dmg = int.Parse(splitData[cardDMGIndex]);
+            newCard.powerName = splitData[powerNameIndex];
+            newCard.powerDescription = splitData[powerDescriptionIndex];
+            newCard.cardSprite = Resources.Load<Sprite>(splitData[cardSpriteIndex]);
 
 
-            AssetDatabase.CreateAsset(newCard, $"Assets/Cards/{newCard.cardName}.asset");
+            AssetDatabase.CreateAsset(newCard, $"Assets/Cards/{newCard.cardAssetName}.asset");
         }
         AssetDatabase.SaveAssets();
     }

@@ -6,6 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName ="Cards/CreateCard")]
 public class Card : ScriptableObject
 {
+    public string cardAssetName;
     public string cardType;
     public string cardName;
     public int quantity;
@@ -13,5 +14,6 @@ public class Card : ScriptableObject
     public int dmg;
     public string powerName;
     public string powerDescription;
+    public Sprite cardSprite;
 
 }

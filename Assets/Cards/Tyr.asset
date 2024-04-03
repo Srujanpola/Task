@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Tyr
   m_EditorClassIdentifier: 
+  cardAssetName: Tyr
   cardType: Norse Cards
   cardName: Tyr
   quantity: 1
   hp: 150
   dmg: 40
   powerName: I Cast Thee
-  powerDescription: 'Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle
-    Deck.'
+  powerDescription: ' Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle
+    Deck. '
+  cardSprite: {fileID: 21300000, guid: 13b94db69f3e0694a98ced90cf6dee35, type: 3}

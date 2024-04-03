@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Yu Huang
   m_EditorClassIdentifier: 
+  cardAssetName: Yu Huang
   cardType: Chinese Cards
   cardName: Yu Huang
   quantity: 1
   hp: 160
   dmg: 30
   powerName: Wise Elimination
-  powerDescription: If Artifact Card attached to Active Card; Discard one of Opponent's
-    Artifact Card.
+  powerDescription: ' If Artifact Card attached to Active Card; Discard one of Opponent''s
+    Artifact Card. '
+  cardSprite: {fileID: 21300000, guid: ff9c5522be795444e9d439c1369dc022, type: 3}

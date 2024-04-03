@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Amaterasu
   m_EditorClassIdentifier: 
+  cardAssetName: Amaterasu
   cardType: Japanese Cards
   cardName: Amaterasu
   quantity: 1
   hp: 90
   dmg: 60
   powerName: Blades of Olympus
-  powerDescription: +10 [ ] to One Benched Card.
+  powerDescription: ' +10 [ ] to One Benched Card. '
+  cardSprite: {fileID: 21300000, guid: 2c2e1e5232e522d48aa0af3d39de4e66, type: 3}

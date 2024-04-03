@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Erlang Shen
   m_EditorClassIdentifier: 
+  cardAssetName: Erlang Shen
   cardType: Chinese Cards
   cardName: Erlang Shen
   quantity: 1
   hp: 110
   dmg: 50
   powerName: I Cast Thee
-  powerDescription: 'Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle
-    Deck.'
+  powerDescription: ' Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle
+    Deck. '
+  cardSprite: {fileID: 21300000, guid: 99d8d70194b849043ad59608a729940b, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
+  m_Name: Spell Card 8
+  m_EditorClassIdentifier: 
+  cardAssetName: Spell Card 8
+  cardType: Spell Cards
+  cardName: Spell Card
+  quantity: 1
+  hp: 0
+  dmg: 0
+  powerName: 'Divine Beacon Of Hope '
+  powerDescription: ' Roll a Die. If Odd: [ ] Opponent''s Active Card.<br> You win
+    1 [ ]. If Even: [ ] Your Active Card. <br>Opponent Wins 1 [ ]. '
+  cardSprite: {fileID: 21300000, guid: 13e6b0bd5fc3af849b75776672ec748e, type: 3}

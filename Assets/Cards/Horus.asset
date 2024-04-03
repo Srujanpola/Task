@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Horus
   m_EditorClassIdentifier: 
+  cardAssetName: Horus
   cardType: Egyptian Cards
   cardName: Horus
   quantity: 1
   hp: 160
   dmg: 30
   powerName: War God's Fury
-  powerDescription: 'If Spell Card used: +20 [ ]'
+  powerDescription: ' If Spell Card used: +20 [ ] '
+  cardSprite: {fileID: 21300000, guid: 7b8478707fdc6694e9ddd8250d43408b, type: 3}

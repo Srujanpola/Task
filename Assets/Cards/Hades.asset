@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Hades
   m_EditorClassIdentifier: 
+  cardAssetName: Hades
   cardType: Greek Cards
   cardName: Hades
   quantity: 1
   hp: 130
   dmg: 50
   powerName: War God's Fury
-  powerDescription: 'If Spell Card used: +20 [ ]'
+  powerDescription: ' If Spell Card used: +20 [ ] '
+  cardSprite: {fileID: 21300000, guid: 2ae9af4ca0271944fa1e840ddd39ede4, type: 3}

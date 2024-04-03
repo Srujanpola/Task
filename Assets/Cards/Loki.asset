@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Loki
   m_EditorClassIdentifier: 
+  cardAssetName: Loki
   cardType: Norse Cards
   cardName: Loki
   quantity: 1
   hp: 100
   dmg: 60
   powerName: 'Soul Reaper''s Embrace '
-  powerDescription: 'Roll a Die. If Odd: Search your Discard Pile for a Spell Card.'
+  powerDescription: ' Roll a Die. If Odd: Search your Discard Pile for a Spell Card. '
+  cardSprite: {fileID: 21300000, guid: 15cd413539bf4fb40aa8e6812bb801df, type: 3}

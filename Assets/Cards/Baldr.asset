@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Baldr
   m_EditorClassIdentifier: 
+  cardAssetName: Baldr
   cardType: Norse Cards
   cardName: Baldr
   quantity: 1
   hp: 170
   dmg: 30
   powerName: Wise Elimination
-  powerDescription: If Artifact Card attached to Active Card; Discard one of Opponent's
-    Artifact Card.
+  powerDescription: ' If Artifact Card attached to Active Card; Discard one of Opponent''s
+    Artifact Card. '
+  cardSprite: {fileID: 21300000, guid: 53130fbef68efb84088e5c14f2d5940d, type: 3}

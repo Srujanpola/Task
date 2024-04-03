@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964bd2832074b3940a71e9f48aaef6fb, type: 3}
   m_Name: Anubis
   m_EditorClassIdentifier: 
+  cardAssetName: Anubis
   cardType: Egyptian Cards
   cardName: Anubis
   quantity: 1
   hp: 120
   dmg: 50
   powerName: Wise Elimination
-  powerDescription: If Artifact Card attached to Active Card; Discard one of Opponent's
-    Artifact Card.
+  powerDescription: ' If Artifact Card attached to Active Card; Discard one of Opponent''s
+    Artifact Card. '
+  cardSprite: {fileID: 21300000, guid: 43d924f25c7e5b042a3d0d31ee609a76, type: 3}
