@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Horus
   m_EditorClassIdentifier: 
   cardAssetName: Horus
-  cardType: Egyptian Cards
+  cardType: 3
   cardName: Horus
   quantity: 1
   hp: 160

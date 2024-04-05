@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hathor
   m_EditorClassIdentifier: 
   cardAssetName: Hathor
-  cardType: Egyptian Cards
+  cardType: 3
   cardName: Hathor
   quantity: 1
   hp: 100

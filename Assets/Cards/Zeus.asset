@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Zeus
   m_EditorClassIdentifier: 
   cardAssetName: Zeus
-  cardType: Greek Cards
+  cardType: 4
   cardName: Zeus
   quantity: 1
   hp: 170

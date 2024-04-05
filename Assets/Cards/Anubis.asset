@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Anubis
   m_EditorClassIdentifier: 
   cardAssetName: Anubis
-  cardType: Egyptian Cards
+  cardType: 3
   cardName: Anubis
   quantity: 1
   hp: 120

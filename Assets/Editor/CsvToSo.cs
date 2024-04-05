@@ -27,7 +27,7 @@ public class CsvToSo
             string[] splitData = line.Split(',');
 
             Card newCard = ScriptableObject.CreateInstance<Card>();
-            newCard.cardType = splitData[cardTypeIndex];
+            newCard.cardType = (CardType)System.Enum.Parse(typeof(CardType), splitData[cardTypeIndex]);
             newCard.cardAssetName = splitData[cardAssetNameIndex];
             newCard.cardName = splitData[cardNameIndex];
             newCard.quantity = int.Parse(splitData[cardQuantityIndex]);

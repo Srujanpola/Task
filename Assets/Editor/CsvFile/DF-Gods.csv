@@ -1,37 +1,37 @@
-Roman Cards,Venus,Venus,1,150,40,Blades of Olympus, +10 [ ] to One Benched Card. ,Art Assets/Gods/Venus
-Roman Cards,Mercury,Mercury,1,110,50,Purifying Light Ray, Heal any Active/Benched Card by +10 [ ] ,Art Assets/Gods/mercury
-Roman Cards,Mars,Mars,1,120,50,Divine Protection, Grants Resistance to Opponent's Artifact Card [ ]. ,Art Assets/Gods/Mars
-Norse Cards,Loki,Loki,1,100,60,Soul Reaper's Embrace , Roll a Die. If Odd: Search your Discard Pile for a Spell Card. ,Art Assets/Gods/Loki
-Norse Cards,Baldr,Baldr,1,170,30,Wise Elimination, If Artifact Card attached to Active Card; Discard one of Opponent's Artifact Card. ,Art Assets/Gods/Baldr
-Norse Cards,Tyr,Tyr,1,150,40,I Cast Thee, Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle Deck. ,Art Assets/Gods/Tyr
-Japanese Cards,Amaterasu,Amaterasu,1,90,60,Blades of Olympus, +10 [ ] to One Benched Card. ,Art Assets/Gods/Amaterasu
-Japanese Cards,Tsukuyomi,Tsukuyomi,1,110,50,Purifying Light Ray, Heal any Active/Benched Card by +10 [ ] ,Art Assets/Gods/Tsukiyomi
-Japanese Cards,Susanoo,Susanoo,1,130,50,Soul Reaper's Embrace , Roll a Die. If Odd: Search your Discard Pile for a Spell Card. ,Art Assets/Gods/Susanoo
-Egyptian Cards,Anubis,Anubis,1,120,50,Wise Elimination, If Artifact Card attached to Active Card; Discard one of Opponent's Artifact Card. ,Art Assets/Gods/Anubis
-Egyptian Cards,Hathor,Hathor,1,100,60,Soul Reaper's Embrace , Roll a Die. If Odd: Search your Discard Pile for a Spell Card. ,Art Assets/Gods/Hathor
-Egyptian Cards,Horus,Horus,1,160,30,War God's Fury, If Spell Card used: +20 [ ] ,Art Assets/Gods/Horus
-Greek Cards,Zeus,Zeus,1,170,30,Blades of Olympus, +10 [ ] to One Benched Card. ,Art Assets/Gods/Zeus
-Greek Cards,Hades,Hades,1,130,50,War God's Fury, If Spell Card used: +20 [ ] ,Art Assets/Gods/Hades
-Greek Cards,Poseidon,Poseidon,1,140,40,I Cast Thee, Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle Deck. ,Art Assets/Gods/Poseidon
-Chinese Cards,Nezha,Nezha,1,130,50,Divine Protection, Grants Resistance to Opponent's Artifact Card [ ]. ,Art Assets/Gods/Nezha
-Chinese Cards,Erlang Shen,Erlang Shen,1,110,50,I Cast Thee, Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle Deck. ,Art Assets/Gods/Erlang Shen
-Chinese Cards,Yu Huang,Yu Huang,1,160,30,Wise Elimination, If Artifact Card attached to Active Card; Discard one of Opponent's Artifact Card. ,Art Assets/Gods/Yu Huang
-Indian Cards,Bramha,Bramha,1,90,60,War God's Fury, If Spell Card used: +20 [ ] ,Art Assets/Gods/Bramha
-Indian Cards,Vishnu,Vishnu,1,140,40,Purifying Light Ray, Heal any Active/Benched Card by +10 [ ] ,Art Assets/Gods/Vishnu
-Indian Cards,Shiva,Shiva,1,150,40,Divine Protection, Grants Resistance to Opponent's Artifact Card [ ]. ,Art Assets/Gods/Shiva
-Spell Cards,Spell Card 1,Spell Card,1,0,0,Thor’s Thunder Strike, +20 [ ] to Two Benced Cards. ,Art Assets/SpellCards/Thors Thunder Strike
-Spell Cards,Spell Card 2,Spell Card,1,0,0,Frostbite Nova, Your Opponent's can’t attack during their Next Turn.  ,Art Assets/SpellCards/fostbite nova
-Spell Cards,Spell Card 3,Spell Card,1,0,0,Odin's Beacon of Wisdom, Roll a Die. If Even: Draw +3 cards. If Odd: nothing happens. ,Art Assets/SpellCards/odin beacon of wisdom
-Spell Cards,Spell Card 4,Spell Card,1,0,0,Ares’ Battle Cry, Your Opponent can’t use any Artifact Card [ ] during their Next Turn. ,Art Assets/SpellCards/ares battle cry
-Spell Cards,Spell Card 5,Spell Card,1,0,0,Athena’s Shield of Wisdom, Your Opponent can’t use any Spell Card [ ] during their Next Turn. ,Art Assets/SpellCards/athena sheild of wisdom
-Spell Cards,Spell Card 6,Spell Card,1,0,0,Apollo’s Healing Radiance, +30 [ ] to Your Active Card. <br>+20 [ ] to Opponent's Active Card. ,Art Assets/SpellCards/Apollo healing radiance
-Spell Cards,Spell Card 7,Spell Card,1,0,0,Loki’s Illusionary Mirage, Switch your Active Card with one of your Benched Cards.  ,Art Assets/SpellCards/Loki illusionary mirage
-Spell Cards,Spell Card 8,Spell Card,1,0,0,Divine Beacon Of Hope , Roll a Die. If Odd: [ ] Opponent's Active Card.<br> You win 1 [ ]. If Even: [ ] Your Active Card. <br>Opponent Wins 1 [ ]. ,Art Assets/SpellCards/divine beacon of hope
-Spell Cards,Spell Card 9,Spell Card,1,0,0,Holy Reckoning, Draw Cards until you have same number of cards as your Opponent's hand.  ,Art Assets/SpellCards/Holy Reckoning
-Spell Cards,Spell Card 10,Spell Card,1,0,0,Godly Guidance , Discard Artifact Card [ ] attached to Opponent's Active Card and Draw +2 cards.   ,Art Assets/SpellCards/godly guidance
-Spell Cards,Spell Card 11,Spell Card,1,0,0,Divine Rebirth, Revive a God card from your Discard Pile and Discard this Card. ,Art Assets/SpellCards/Divine rebirth
-Artifact Cards,Artifact Card 1,Artifact Card,3,0,0,Force Field , Grants Resistance to Any Weakness applied by your opponent. ,Art Assets/Articrafts/Force Field 2
-Artifact Cards,Artifact Card 2,Artifact Card,3,0,0,Flames Grant Me Strength, +20 [ ] to the God this is attached to. ,Art Assets/Articrafts/Flames Grant Me Strength 3
-Artifact Cards,Artifact Card 3,Artifact Card,3,0,0,Holy Grail Of Light, +10 [ ] to the God this is attached to. ,Art Assets/Articrafts/Holy Grail of Light 1
-Artifact Cards,Artifact Card 4,Artifact Card,3,0,0,Wings Of Destiny , Roll a Die. If Odd: you deal +40 [ ]. <br>If Even: you lose -20 [ ]. ,Art Assets/Articrafts/Wings of Destiny 3
-Artifact Cards,Artifact Card 5,Artifact Card,1,0,0,Give Me Thy Strength," When attached to Active card, you can Draw +1 Card. ",Art Assets/Articrafts/Give me thy strength 2
+ROMAN,Venus,Venus,1,150,40,Blades of Olympus, +10 [ ] to One Benched Card. ,Art Assets/Gods/Venus
+ROMAN,Mercury,Mercury,1,110,50,Purifying Light Ray, Heal any Active/Benched Card by +10 [ ] ,Art Assets/Gods/mercury
+ROMAN,Mars,Mars,1,120,50,Divine Protection, Grants Resistance to Opponent's Artifact Card [ ]. ,Art Assets/Gods/Mars
+NORSE,Loki,Loki,1,100,60,Soul Reaper's Embrace , Roll a Die. If Odd: Search your Discard Pile for a Spell Card. ,Art Assets/Gods/Loki
+NORSE,Baldr,Baldr,1,170,30,Wise Elimination, If Artifact Card attached to Active Card; Discard one of Opponent's Artifact Card. ,Art Assets/Gods/Baldr
+NORSE,Tyr,Tyr,1,150,40,I Cast Thee, Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle Deck. ,Art Assets/Gods/Tyr
+JAPANESE,Amaterasu,Amaterasu,1,90,60,Blades of Olympus, +10 [ ] to One Benched Card. ,Art Assets/Gods/Amaterasu
+JAPANESE,Tsukuyomi,Tsukuyomi,1,110,50,Purifying Light Ray, Heal any Active/Benched Card by +10 [ ] ,Art Assets/Gods/Tsukiyomi
+JAPANESE,Susanoo,Susanoo,1,130,50,Soul Reaper's Embrace , Roll a Die. If Odd: Search your Discard Pile for a Spell Card. ,Art Assets/Gods/Susanoo
+EGYPTIAN,Anubis,Anubis,1,120,50,Wise Elimination, If Artifact Card attached to Active Card; Discard one of Opponent's Artifact Card. ,Art Assets/Gods/Anubis
+EGYPTIAN,Hathor,Hathor,1,100,60,Soul Reaper's Embrace , Roll a Die. If Odd: Search your Discard Pile for a Spell Card. ,Art Assets/Gods/Hathor
+EGYPTIAN,Horus,Horus,1,160,30,War God's Fury, If Spell Card used: +20 [ ] ,Art Assets/Gods/Horus
+GREEK,Zeus,Zeus,1,170,30,Blades of Olympus, +10 [ ] to One Benched Card. ,Art Assets/Gods/Zeus
+GREEK,Hades,Hades,1,130,50,War God's Fury, If Spell Card used: +20 [ ] ,Art Assets/Gods/Hades
+GREEK,Poseidon,Poseidon,1,140,40,I Cast Thee, Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle Deck. ,Art Assets/Gods/Poseidon
+CHINESE,Nezha,Nezha,1,130,50,Divine Protection, Grants Resistance to Opponent's Artifact Card [ ]. ,Art Assets/Gods/Nezha
+CHINESE,Erlang Shen,Erlang Shen,1,110,50,I Cast Thee, Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle Deck. ,Art Assets/Gods/Erlang Shen
+CHINESE,Yu Huang,Yu Huang,1,160,30,Wise Elimination, If Artifact Card attached to Active Card; Discard one of Opponent's Artifact Card. ,Art Assets/Gods/Yu Huang
+INDIAN,Bramha,Bramha,1,90,60,War God's Fury, If Spell Card used: +20 [ ] ,Art Assets/Gods/Bramha
+INDIAN,Vishnu,Vishnu,1,140,40,Purifying Light Ray, Heal any Active/Benched Card by +10 [ ] ,Art Assets/Gods/Vishnu
+INDIAN,Shiva,Shiva,1,150,40,Divine Protection, Grants Resistance to Opponent's Artifact Card [ ]. ,Art Assets/Gods/Shiva
+SPELL,Spell Card 1,Spell Card,1,0,0,Thor’s Thunder Strike, +20 [ ] to Two Benced Cards. ,Art Assets/SpellCards/Thors Thunder Strike
+SPELL,Spell Card 2,Spell Card,1,0,0,Frostbite Nova, Your Opponent's can’t attack during their Next Turn.  ,Art Assets/SpellCards/fostbite nova
+SPELL,Spell Card 3,Spell Card,1,0,0,Odin's Beacon of Wisdom, Roll a Die. If Even: Draw +3 cards. If Odd: nothing happens. ,Art Assets/SpellCards/odin beacon of wisdom
+SPELL,Spell Card 4,Spell Card,1,0,0,Ares’ Battle Cry, Your Opponent can’t use any Artifact Card [ ] during their Next Turn. ,Art Assets/SpellCards/ares battle cry
+SPELL,Spell Card 5,Spell Card,1,0,0,Athena’s Shield of Wisdom, Your Opponent can’t use any Spell Card [ ] during their Next Turn. ,Art Assets/SpellCards/athena sheild of wisdom
+SPELL,Spell Card 6,Spell Card,1,0,0,Apollo’s Healing Radiance, +30 [ ] to Your Active Card. <br>+20 [ ] to Opponent's Active Card. ,Art Assets/SpellCards/Apollo healing radiance
+SPELL,Spell Card 7,Spell Card,1,0,0,Loki’s Illusionary Mirage, Switch your Active Card with one of your Benched Cards.  ,Art Assets/SpellCards/Loki illusionary mirage
+SPELL,Spell Card 8,Spell Card,1,0,0,Divine Beacon Of Hope , Roll a Die. If Odd: [ ] Opponent's Active Card.<br> You win 1 [ ]. If Even: [ ] Your Active Card. <br>Opponent Wins 1 [ ]. ,Art Assets/SpellCards/divine beacon of hope
+SPELL,Spell Card 9,Spell Card,1,0,0,Holy Reckoning, Draw Cards until you have same number of cards as your Opponent's hand.  ,Art Assets/SpellCards/Holy Reckoning
+SPELL,Spell Card 10,Spell Card,1,0,0,Godly Guidance , Discard Artifact Card [ ] attached to Opponent's Active Card and Draw +2 cards.   ,Art Assets/SpellCards/godly guidance
+SPELL,Spell Card 11,Spell Card,1,0,0,Divine Rebirth, Revive a God card from your Discard Pile and Discard this Card. ,Art Assets/SpellCards/Divine rebirth
+ARTIFACT,Artifact Card 1,Artifact Card,3,0,0,Force Field , Grants Resistance to Any Weakness applied by your opponent. ,Art Assets/Articrafts/Force Field 2
+ARTIFACT,Artifact Card 2,Artifact Card,3,0,0,Flames Grant Me Strength, +20 [ ] to the God this is attached to. ,Art Assets/Articrafts/Flames Grant Me Strength 3
+ARTIFACT,Artifact Card 3,Artifact Card,3,0,0,Holy Grail Of Light, +10 [ ] to the God this is attached to. ,Art Assets/Articrafts/Holy Grail of Light 1
+ARTIFACT,Artifact Card 4,Artifact Card,3,0,0,Wings Of Destiny , Roll a Die. If Odd: you deal +40 [ ]. <br>If Even: you lose -20 [ ]. ,Art Assets/Articrafts/Wings of Destiny 3
+ARTIFACT,Artifact Card 5,Artifact Card,1,0,0,Give Me Thy Strength," When attached to Active card, you can Draw +1 Card. ",Art Assets/Articrafts/Give me thy strength 2

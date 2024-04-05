@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Artifact Card 5
   m_EditorClassIdentifier: 
   cardAssetName: Artifact Card 5
-  cardType: Artifact Cards
+  cardType: 8
   cardName: Artifact Card
   quantity: 1
   hp: 0
@@ -21,3 +21,5 @@ MonoBehaviour:
   powerName: Give Me Thy Strength
   powerDescription: '" When attached to Active card'
   cardSprite: {fileID: 0}
+  attackSprite: {fileID: 0}
+  defenseSprite: {fileID: 0}

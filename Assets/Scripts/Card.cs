@@ -7,7 +7,7 @@ using UnityEngine;
 public class Card : ScriptableObject
 {
     public string cardAssetName;
-    public string cardType;
+    public CardType cardType;
     public string cardName;
     public int quantity;
     public int hp;
@@ -15,5 +15,20 @@ public class Card : ScriptableObject
     public string powerName;
     public string powerDescription;
     public Sprite cardSprite;
+   
+
+}
+public enum CardType
+{
+    ROMAN,
+    NORSE,
+    JAPANESE,
+    EGYPTIAN,
+    GREEK,
+    CHINESE,
+    INDIAN,
+    SPELL,
+    ARTIFACT,
+    DEFAULT
 
 }

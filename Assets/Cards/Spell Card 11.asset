@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Spell Card 11
   m_EditorClassIdentifier: 
   cardAssetName: Spell Card 11
-  cardType: Spell Cards
+  cardType: 7
   cardName: Spell Card
   quantity: 1
   hp: 0
@@ -21,3 +21,5 @@ MonoBehaviour:
   powerName: Divine Rebirth
   powerDescription: ' Revive a God card from your Discard Pile and Discard this Card. '
   cardSprite: {fileID: 21300000, guid: 4e4ffdb4e1390264da09292fc376971a, type: 3}
+  attackSprite: {fileID: 0}
+  defenseSprite: {fileID: 0}

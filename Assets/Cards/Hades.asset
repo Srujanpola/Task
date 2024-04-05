@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hades
   m_EditorClassIdentifier: 
   cardAssetName: Hades
-  cardType: Greek Cards
+  cardType: 4
   cardName: Hades
   quantity: 1
   hp: 130
@@ -21,3 +21,5 @@ MonoBehaviour:
   powerName: War God's Fury
   powerDescription: ' If Spell Card used: +20 [ ] '
   cardSprite: {fileID: 21300000, guid: 2ae9af4ca0271944fa1e840ddd39ede4, type: 3}
+  attackSprite: {fileID: 0}
+  defenseSprite: {fileID: 0}

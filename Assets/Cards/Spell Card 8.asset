@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Spell Card 8
   m_EditorClassIdentifier: 
   cardAssetName: Spell Card 8
-  cardType: Spell Cards
+  cardType: 7
   cardName: Spell Card
   quantity: 1
   hp: 0
@@ -22,3 +22,5 @@ MonoBehaviour:
   powerDescription: ' Roll a Die. If Odd: [ ] Opponent''s Active Card.<br> You win
     1 [ ]. If Even: [ ] Your Active Card. <br>Opponent Wins 1 [ ]. '
   cardSprite: {fileID: 21300000, guid: 13e6b0bd5fc3af849b75776672ec748e, type: 3}
+  attackSprite: {fileID: 0}
+  defenseSprite: {fileID: 0}

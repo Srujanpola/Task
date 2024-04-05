@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Spell Card 6
   m_EditorClassIdentifier: 
   cardAssetName: Spell Card 6
-  cardType: Spell Cards
+  cardType: 7
   cardName: Spell Card
   quantity: 1
   hp: 0
@@ -22,3 +22,5 @@ MonoBehaviour:
   powerDescription: ' +30 [ ] to Your Active Card. <br>+20 [ ] to Opponent''s Active
     Card. '
   cardSprite: {fileID: 21300000, guid: c7f95885e315dfb4f83d58c1bdf5e49c, type: 3}
+  attackSprite: {fileID: 0}
+  defenseSprite: {fileID: 0}

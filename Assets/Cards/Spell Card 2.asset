@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Spell Card 2
   m_EditorClassIdentifier: 
   cardAssetName: Spell Card 2
-  cardType: Spell Cards
+  cardType: 7
   cardName: Spell Card
   quantity: 1
   hp: 0
@@ -21,3 +21,5 @@ MonoBehaviour:
   powerName: Frostbite Nova
   powerDescription: " Your Opponent's can\uFFFDt attack during their Next Turn.  "
   cardSprite: {fileID: 0}
+  attackSprite: {fileID: 0}
+  defenseSprite: {fileID: 0}
