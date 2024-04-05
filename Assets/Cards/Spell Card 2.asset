@@ -21,5 +21,3 @@ MonoBehaviour:
   powerName: Frostbite Nova
   powerDescription: " Your Opponent's can\uFFFDt attack during their Next Turn.  "
   cardSprite: {fileID: 0}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}

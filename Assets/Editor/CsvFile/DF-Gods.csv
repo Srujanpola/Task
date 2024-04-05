@@ -1,4 +1,4 @@
-ROMAN,Venus,Venus,1,150,40,Blades of Olympus, +10 [ ] to One Benched Card. ,Art Assets/Gods/Venus
+ROMAN,Venus,Venus,1,150,40,Blades of Olympus, <b>+10</b> to <b>One Benched</b> Card. ,Art Assets/Gods/Venus
 ROMAN,Mercury,Mercury,1,110,50,Purifying Light Ray, Heal any Active/Benched Card by +10 [ ] ,Art Assets/Gods/mercury
 ROMAN,Mars,Mars,1,120,50,Divine Protection, Grants Resistance to Opponent's Artifact Card [ ]. ,Art Assets/Gods/Mars
 NORSE,Loki,Loki,1,100,60,Soul Reaper's Embrace , Roll a Die. If Odd: Search your Discard Pile for a Spell Card. ,Art Assets/Gods/Loki

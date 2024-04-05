@@ -21,5 +21,3 @@ MonoBehaviour:
   powerName: Flames Grant Me Strength
   powerDescription: ' +20 [ ] to the God this is attached to. '
   cardSprite: {fileID: 21300000, guid: cc985d8b6fe608e40bf04497570b364c, type: 3}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}

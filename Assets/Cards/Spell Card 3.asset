@@ -21,5 +21,3 @@ MonoBehaviour:
   powerName: Odin's Beacon of Wisdom
   powerDescription: ' Roll a Die. If Even: Draw +3 cards. If Odd: nothing happens. '
   cardSprite: {fileID: 21300000, guid: 6aa872451564c214189aa5ea7edc660d, type: 3}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}

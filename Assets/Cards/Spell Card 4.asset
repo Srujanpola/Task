@@ -22,5 +22,3 @@ MonoBehaviour:
   powerDescription: " Your Opponent can\uFFFDt use any Artifact Card [ ] during their
     Next Turn. "
   cardSprite: {fileID: 21300000, guid: a98e6877def923845b3c95204beef150, type: 3}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}

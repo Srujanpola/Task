@@ -19,7 +19,5 @@ MonoBehaviour:
   hp: 150
   dmg: 40
   powerName: Blades of Olympus
-  powerDescription: ' +10 [ ] to One Benched Card. '
+  powerDescription: ' <b>+10</b> to <b>One Benched</b> Card. '
   cardSprite: {fileID: 21300000, guid: d7efada7e6de07543b17cb466dfa53b9, type: 3}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}

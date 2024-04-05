@@ -21,5 +21,3 @@ MonoBehaviour:
   powerName: War God's Fury
   powerDescription: ' If Spell Card used: +20 [ ] '
   cardSprite: {fileID: 21300000, guid: 5e088c15c29665743852e76c42d8edc4, type: 3}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}

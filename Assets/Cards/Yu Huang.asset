@@ -22,5 +22,3 @@ MonoBehaviour:
   powerDescription: ' If Artifact Card attached to Active Card; Discard one of Opponent''s
     Artifact Card. '
   cardSprite: {fileID: 21300000, guid: ff9c5522be795444e9d439c1369dc022, type: 3}
-  attackSprite: {fileID: 21300000, guid: 3b322e1f2bb350d49b68e7202b00e6ac, type: 3}
-  defenseSprite: {fileID: 21300000, guid: fc851e4e128a48b4a9b1bec4eb76d265, type: 3}

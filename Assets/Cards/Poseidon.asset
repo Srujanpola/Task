@@ -22,5 +22,3 @@ MonoBehaviour:
   powerDescription: ' Roll a Die. If Even: Search Deck for an Artifact Card. Re-shuffle
     Deck. '
   cardSprite: {fileID: 21300000, guid: 8a201f5c908762d43af78ab31d7776a1, type: 3}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}

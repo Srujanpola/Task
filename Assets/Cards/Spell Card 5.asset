@@ -22,5 +22,3 @@ MonoBehaviour:
   powerDescription: " Your Opponent can\uFFFDt use any Spell Card [ ] during their
     Next Turn. "
   cardSprite: {fileID: 21300000, guid: 27a45c74a75fae9428e498fb2228ad2f, type: 3}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}

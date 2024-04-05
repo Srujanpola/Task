@@ -21,5 +21,3 @@ MonoBehaviour:
   powerName: Holy Grail Of Light
   powerDescription: ' +10 [ ] to the God this is attached to. '
   cardSprite: {fileID: 21300000, guid: 8ed99f2b469150f4895b85cc225a5a37, type: 3}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}

@@ -21,5 +21,3 @@ MonoBehaviour:
   powerName: 'Force Field '
   powerDescription: ' Grants Resistance to Any Weakness applied by your opponent. '
   cardSprite: {fileID: 21300000, guid: ae1969150ec403e46992fa650ae61b89, type: 3}
-  attackSprite: {fileID: 0}
-  defenseSprite: {fileID: 0}
