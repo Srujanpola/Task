@@ -7,6 +7,8 @@ public class Cardmanager : MonoBehaviour
     public List<CardSO> socards;
     public List<Card> cardprefabs;
     public List<Card> card;
+    public bool shuffled = false;
+    public AudioSource bg;
 
     [SerializeField]
     private Transform canvasTransform;
@@ -95,15 +97,56 @@ public class Cardmanager : MonoBehaviour
 
                     card[j].DisplayCardInfo();
                 }
-               
             }
             else
             {
                 Debug.LogError("Card Type Unassigned");
-            }
-            
-
-            
+            } 
         }
     }
+
+    public void ShuffleAndMoveFirstCard()
+    {
+        if (shuffled == true)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                StartCoroutine(MoveCardOverTime(card[i], card[i].transform.position, canvasTransform.position,0));
+            }
+        }
+        
+        card.Shuffle(); // Shuffle the cards
+        bg.Play();
+        float duration = 1.0f; // Set the duration of the movement
+        StartCoroutine(MoveCardOverTime(card[0], card[0].transform.position, new Vector3(320, 180, 0), duration));
+        for ( int i = 1; i < 5; i++)
+        {
+            StartCoroutine(MoveCardOverTime(card[i], card[i].transform.position, new Vector3((i+1)*320, 180, 0), duration));
+        }
+        shuffled = true;
+    }
+
+    private IEnumerator MoveCardOverTime(Card cardObject, Vector3 startPosition, Vector3 targetPosition, float duration)
+    {
+        float elapsedTime = 0f;
+
+        while (elapsedTime < duration)
+        {
+            // Calculate the interpolation factor based on elapsed time and duration
+            float t = elapsedTime / duration;
+
+            // Interpolate the position using Lerp
+            cardObject.transform.position = Vector3.Lerp(startPosition, targetPosition, t);
+
+            // Increment the elapsed time
+            elapsedTime += Time.deltaTime;
+
+            // Wait for the next frame
+            yield return null;
+        }
+
+        // Ensure that the card reaches the target position precisely
+        cardObject.transform.position = targetPosition;
+    }
+
 }

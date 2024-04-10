@@ -1,20 +1,43 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using DG.Tweening;
-using UnityEngine.UI;
 
 public class Animation : MonoBehaviour
 {
-    public GameObject card;
+    public List<Card> cardsToPlace;
+    public Vector3[] cardPositions;
+    public float shuffleDuration = 1.0f;
+    public float placeDuration = 0.5f;
+    public float delayBetweenCards = 0.1f;
 
-    private void Start()
+    void Start()
     {
-        MoveCard();
+        ShuffleCards();
+        PlaceCardsWithAnimation();
     }
-    public void MoveCard()
+
+    void ShuffleCards()
     {
-        card.GetComponent<RectTransform>().DOAnchorPosX(500f,1f);
-        card.GetComponent<Image>().color = Color.cyan;
+        int n = cardsToPlace.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = Random.Range(0, n + 1);
+            Card temp = cardsToPlace[k];
+            cardsToPlace[k] = cardsToPlace[n];
+            cardsToPlace[n] = temp;
+        }
     }
+    void PlaceCardsWithAnimation()
+    {
+        for (int i = 0; i < cardsToPlace.Count; i++)
+        {
+            Card card = cardsToPlace[i];
+            Vector3 targetPosition = cardPositions[i];
+            card.transform.DOMove(targetPosition, placeDuration).SetEase(Ease.OutQuad).SetDelay(i * delayBetweenCards);
+        }
+    }
+
+
 }
