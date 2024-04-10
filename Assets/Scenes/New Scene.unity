@@ -524,6 +524,7 @@ MonoBehaviour:
   shuffled: 0
   bg: {fileID: 1158180905}
   canvasTransform: {fileID: 661473748}
+  button: {fileID: 405926713}
 --- !u!82 &1158180905
 AudioSource:
   m_ObjectHideFlags: 0

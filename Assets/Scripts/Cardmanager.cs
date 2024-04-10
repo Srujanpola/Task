@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Cardmanager : MonoBehaviour
 {
@@ -13,10 +14,12 @@ public class Cardmanager : MonoBehaviour
     [SerializeField]
     private Transform canvasTransform;
 
+    [SerializeField] GameObject button;
     // Start is called before the first frame update
     void Start()
     {
         PopulateData();
+        //button.onClick.AddListener(ShuffleAndMoveFirstCard);
     }
 
     // Update is called once per frame
@@ -107,14 +110,14 @@ public class Cardmanager : MonoBehaviour
 
     public void ShuffleAndMoveFirstCard()
     {
+        button.SetActive(false);
         if (shuffled == true)
         {
             for (int i = 0; i < 5; i++)
             {
                 StartCoroutine(MoveCardOverTime(card[i], card[i].transform.position, canvasTransform.position,0));
             }
-        }
-        
+        }       
         card.Shuffle(); // Shuffle the cards
         bg.Play();
         float duration = 1.0f; // Set the duration of the movement
@@ -124,6 +127,7 @@ public class Cardmanager : MonoBehaviour
             StartCoroutine(MoveCardOverTime(card[i], card[i].transform.position, new Vector3((i+1)*320, 180, 0), duration));
         }
         shuffled = true;
+        Invoke("ActivateCard", 1f);
     }
 
     private IEnumerator MoveCardOverTime(Card cardObject, Vector3 startPosition, Vector3 targetPosition, float duration)
@@ -149,4 +153,8 @@ public class Cardmanager : MonoBehaviour
         cardObject.transform.position = targetPosition;
     }
 
+    void ActivateCard()
+    {
+        button.SetActive(true);
+    }
 }
