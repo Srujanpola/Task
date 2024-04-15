@@ -15,8 +15,6 @@ public class CardSO : ScriptableObject
     public string powerName;
     public string powerDescription;
     public Sprite cardSprite;
-   
-
 }
 public enum CardType
 {
